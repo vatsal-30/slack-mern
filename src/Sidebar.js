@@ -33,12 +33,12 @@ function Sidebar() {
   
     return (
       <div className="sidebar">
-        <div className="sidebar_header">
-          <div className="sidebar_info">
+        <div className="sidebar__header">
+          <div className="sidebar__info">
             <h2>Slack Clone</h2>
           </div>
         </div>
-        {/* <SidebarOption Icon={InsertCommentIcon} title="Threads" />
+        <SidebarOption Icon={InsertCommentIcon} title="Threads" />
         <SidebarOption Icon={InboxIcon} title="Mentions and reactions" />
         <SidebarOption Icon={DraftsIcon} title="Saved items" />
         <SidebarOption Icon={BookmarkBorderIcon} title="Channel browser" />
@@ -48,7 +48,7 @@ function Sidebar() {
         <SidebarOption Icon={ExpandLessIcon} title="Show less" />
         <hr />
         <SidebarOption Icon={ExpandMoreIcon} title="Channel" />
-        <hr /> */}
+        <hr />
         <SidebarOption Icon={AddIcon} addChannelOption title="Add Channel" />
   
   

@@ -10,8 +10,10 @@
     object-fit: contain;
 }
 
-.message_info {
+.message__info {
     padding-left: 15px;
+    /* margin-left: 20px;
+    background-color: bisque; */
 }
 
 .message__timestamp {
