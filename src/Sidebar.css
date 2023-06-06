@@ -1,8 +1,10 @@
 .sidebar {
     color: white;
     background-color: var(--slack-color);
+    /* background-color: antiquewhite; */
     border-top: 1px solid #49274b;
-    max-width: 260px;
+    width: 20%;
+    padding: 10px;
 }
 
 .sidebar>hr {

@@ -1,27 +1,47 @@
 .channelInput {
     border-radius: 20px;
+    display: flex;
+    /* position: fixed; */
+    justify-content: center;
+    bottom: 0;
   }
   
   .channelInput > form {
-    position: relative;
+    /* position: relative; */
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    align-items: center;
   }
   
-  .chatInput > form > input {
-    position: fixed;
+  .channelInput > form > input {
+    /* position: fixed; */
     bottom: 30px;
-    width: 60%;
+    width: 700px;
+    margin-right: 5px;
     outline: none;
     border: 1px solid gray;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 20px;
   }
   
-  .chatInput > form > button {
-    height: 0;
-    width: 0;
-    border: none;
+  .channelInput > form > button {
     background-color: transparent;
+    margin-left: 5px;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    border: 0.5px solid rgb(72, 72, 72);
+  }
+  
+  .form-input {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 75%;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top:20px;
+    background-color: white;
   }
   

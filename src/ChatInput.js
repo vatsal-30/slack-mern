@@ -23,16 +23,16 @@ function ChatInput({ channelName, channelId }) {
         setInput("");
     };
     return (
-        <div className="chatInput">
-            <form>
-                <input
-                    value={input}
-                    onChange={(e) => setInput(e.target.value)}
-                    placeholder={`Message #${channelName?.toLowerCase()}`}
-                />
-                <button type="sumbit" onClick={sendMessage}>SEND</button>
-            </form>
-        </div>
+            <div className="channelInput">
+                <form className='form-input'>
+                    <input
+                        value={input}
+                        onChange={(e) => setInput(e.target.value)}
+                        placeholder={`Message #${channelName?.toLowerCase()}`}
+                    />
+                    <button type="sumbit" onClick={sendMessage}>SEND</button>
+                </form>
+            </div>
     )
 }
 

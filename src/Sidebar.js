@@ -37,9 +37,8 @@ function Sidebar() {
           <div className="sidebar_info">
             <h2>Slack Clone</h2>
           </div>
-          <CreateIcon />
         </div>
-        <SidebarOption Icon={InsertCommentIcon} title="Threads" />
+        {/* <SidebarOption Icon={InsertCommentIcon} title="Threads" />
         <SidebarOption Icon={InboxIcon} title="Mentions and reactions" />
         <SidebarOption Icon={DraftsIcon} title="Saved items" />
         <SidebarOption Icon={BookmarkBorderIcon} title="Channel browser" />
@@ -49,7 +48,7 @@ function Sidebar() {
         <SidebarOption Icon={ExpandLessIcon} title="Show less" />
         <hr />
         <SidebarOption Icon={ExpandMoreIcon} title="Channel" />
-        <hr />
+        <hr /> */}
         <SidebarOption Icon={AddIcon} addChannelOption title="Add Channel" />
   
   
